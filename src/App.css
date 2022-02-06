@@ -2,14 +2,14 @@
 .container-column {
     display: flex;
     flex-direction: row;
-    min-width: 600px;
     height: 100vh;
+    overflow: auto;
+
 }
 
 .col1 {
     width: 200px;
     min-width: 200px;
-    overflow-x: scroll;
     border: 1px solid black;
 }
 

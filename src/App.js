@@ -48,7 +48,7 @@ function App() {
     <div className={'container-column'}>
 
       <div className={'col1'}>
-        <input type={'text'} name={'typeNumber'} value={number}
+        <input type={'text'} name={'inputBox'} value={number}
                onChange={(e) => {
                  setNumber(e.target.value);
                  calculateResult()
@@ -65,6 +65,7 @@ function App() {
           <option value="isFibonacci">isFibonacci</option>
         </select>
       </div>
+
       <div className={'col3'}>{result.toString()}</div>
 
     </div>
